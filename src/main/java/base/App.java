@@ -21,6 +21,7 @@ public class App
         Scanner lenInput = new Scanner(System.in);
         Scanner widInput = new Scanner(System.in);
         DecimalFormat dF = new DecimalFormat("###.###");
+        dF.setGroupingUsed(false);
 
         System.out.print("What is the length of the room in feet? ");
         length = lenInput.nextInt();
